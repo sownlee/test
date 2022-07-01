@@ -13,3 +13,6 @@ print(f"Python {sys.version}")
 print(f"Scikit-Learn {sk.__version__}")
 gpu = len(tf.config.list_physical_devices('GPU'))>0
 print("GPU is", "available" if gpu else "NOT AVAILABLE")
+
+
+# changecommit
